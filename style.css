@@ -1,0 +1,128 @@
+*{
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+#hero{
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  overflow: hidden;
+  
+}
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: saddlebrown;
+  color: black;
+  padding: 15px 30px;
+  
+  
+}
+#nav-link{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+#nav-link a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  
+}
+#nav-link a:hover{
+  text-decoration: underline;
+  color: palevioletred;
+  
+}
+#logo{
+  font-size: 30px;
+  font-weight: 600;
+}
+  h1{
+    text-align: center;
+    color: saddlebrown;
+    font-weight: 700;
+    
+  }
+#box{
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p{
+  font-size: 10px;
+  font-weight: 500;
+}
+#food{
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.section{
+  height: 200px;
+  width: 200px;
+  background-color: saddlebrown;
+  gap: 25px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+  
+  
+
+.section img{
+  margin-top: 25px;
+  border-radius: 15px;
+}
+h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: tan;
+}
+
+.section hover{
+  transform: translateY(-8px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  cursor: pointer;
+  
+}
+#contact{
+  width: 100%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+h3{
+  color: gold;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+h4{
+  color: tan;
+  margin: 10px;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+a{
+  color: tan;
+  text-decoration: none;
+}
+
