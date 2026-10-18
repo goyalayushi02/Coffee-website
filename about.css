@@ -27,7 +27,7 @@ h2{
 }
 #box{
   width: 100%;
-  height: 500px;
+  height: auto;
   background-color: saddlebrown;
   
 }
