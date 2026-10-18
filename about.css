@@ -6,7 +6,7 @@
 }
 #head{
   width: 100%;
-  height: 120px;
+  height: 100px;
   text-align: center;
   background-color: saddlebrown;
 }
@@ -17,7 +17,7 @@ h1{
 }
 p{
   color: tan;
-  font-size: 10px;
+  font-size: 25px;
   font-weight: 600;
 }
 h2{
